@@ -1,0 +1,36 @@
+/* Manager styles
+   Ankit Patil
+   static/css/main.css */
+
+
+/* Overall */
+
+html, body {
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Navigation */
+.navbar {
+    background: #EEE;
+    border: 0;
+    border-radius: 0;
+}
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    height: 90px;
+    color: #000;
+}
+.navbar .navbar-brand:hover {
+    color: #888;
+}
+.navbar .navbar-nav>li>a {
+    font-size: 15px;
+    padding: 35px 15px 10px;
+    color: #000;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}

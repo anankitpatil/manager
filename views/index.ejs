@@ -1,0 +1,24 @@
+<!-- views/index.ejs -->
+
+<html itemscope itemtype="http://schema.org/Organization" lang="en-US">
+
+<head>
+    <% include ./partials/head %>
+</head>
+
+<body>
+    <% include ./partials/header %>
+
+        <div class="jumbotron text-center">
+            <h1><span class="fa fa-lock"></span> Node Authentication</h1>
+
+            <p>Login or Register with:</p>
+
+            <a href="/manager" class="btn btn-default"><span class="fa fa-user"></span> Local Login</a>
+            <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a>
+        </div>
+
+        <% include ./partials/footer %>
+</body>
+
+</html>
